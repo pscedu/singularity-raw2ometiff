@@ -1,40 +1,40 @@
 --
--- gnuplot 5.4 modulefile
+-- raw2ometiff 3.0.0 modulefile
 --
 -- "URL: https://www.psc.edu/resources/software"
 -- "Category: Other"
--- "Description: gnuplot is a command-line and GUI program that can generate two- and three-dimensional plots of functions, data, and data fits."
+-- "Description: raw2ometiff is a command-line and GUI program that can generate two- and three-dimensional plots of functions, data, and data fits."
 -- "Keywords: singularity utilities"
 
-whatis("Name: gnuplot")
-whatis("Version: 5.4")
+whatis("Name: raw2ometiff")
+whatis("Version: 3.0.0")
 whatis("Category: Other")
 whatis("URL: https://www.psc.edu/resources/software")
-whatis("Description: gnuplot is a command-line and GUI program that can generate two- and three-dimensional plots of functions, data, and data fits.")
+whatis("Description: raw2ometiff is a command-line and GUI program that can generate two- and three-dimensional plots of functions, data, and data fits.")
 
 help([[
-gnuplot is a command-line and GUI program that can generate two- and three-dimensional plots of functions, data, and data fits.
+raw2ometiff is a command-line and GUI program that can generate two- and three-dimensional plots of functions, data, and data fits.
 
 To load the module type
 
-> module load gnuplot/5.4
+> module load raw2ometiff/3.0.0
 
 To unload the module type
 
-> module unload gnuplot/5.4
+> module unload raw2ometiff/3.0.0
 
 Documentation
 -------------
 For help, type
 
-> gnuplot --help
+> raw2ometiff --help
 
 Tools included in this module are
 
-* gnuplot
+* raw2ometiff
 ]])
 
-local package = "gnuplot"
-local version = "5.4"
+local package = "raw2ometiff"
+local version = "3.0.0"
 local base    = pathJoin("/opt/packages",package,version)
 prepend_path("PATH", base)
